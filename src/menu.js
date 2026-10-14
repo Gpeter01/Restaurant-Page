@@ -1,0 +1,1 @@
+export const greeting = 'Hey there, I am the menu.js file';
