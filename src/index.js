@@ -1,3 +1,7 @@
 import './style.css'
-import { greeting } from './menu.js'
-console.log(greeting);
+import {createHomePage} from './homepage.js';
+
+const homeButton = document.querySelector('.home');
+homeButton.addEventListener('click', createHomePage);
+
+createHomePage();
