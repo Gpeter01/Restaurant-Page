@@ -69,6 +69,12 @@ function createHomePage() {
         </div>`;
     const homeButton = document.querySelector('.home');
     homeButton.style.color = 'rgba(255, 255, 255, 0.5)';
+
+    const menuButton = document.querySelector('.menu');
+    menuButton.style.color = 'white';
+
+    const aboutButton = document.querySelector('.about');
+    aboutButton.style.color = 'white';
 };
 
 function setPageTitle(pageTitle) {
