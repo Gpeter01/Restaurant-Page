@@ -42,8 +42,8 @@ button {
     transition: color 200ms ease;
 }
 
-button:hover {
-    color: rgba(197, 248, 230, 0.5);
+button.menu:hover, button.about:hover, button.home:hover {
+    color: rgba(197, 248, 230, 0.5) !important;
 }
 
 .hero {
