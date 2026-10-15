@@ -44,7 +44,7 @@ function createHomePage() {
             </div>
 
             <footer>
-                <p><a href="#content">Go to top of page</a></p>
+                <p><a href="#content">Go to the top of page</a></p>
                 <p>Wanna know about me?</p>
                 <p class="github-link">
                     <span class=" github svg-container">
