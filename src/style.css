@@ -1,3 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background: blue;
+    background: rgba(5, 26, 43);
+    color: rgb(197, 248, 243);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding: 1rem 1rem 0;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+button {
+    border: 1px solid transparent;
+    padding: 1rem;
+    border-radius: 10px;
+    background: rgba(5, 93, 133, 0.1);
+    color: white;
+    transition: color 200ms ease;
+}
+
+button:hover {
+    color: rgba(197, 248, 230, 0.5);
+}
+
+.hero {
+    min-height: 50vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('IMG_1750.JPG') center / cover  no-repeat;
+}
+
+.hero-content, .github-link {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+}
+
+.svg-container {
+    height: 100%;
+    width: 30%;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: rgb(197, 248, 230);
+    font-style: italic;
+}
+
+.container {
+    height: fit-content;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content-container {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 50ch;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.content-container > * {
+    background: rgba(5, 93, 133, 0.85);
+    backdrop-filter: blur(2px);
+    padding: 3rem;
+    border-radius: 50px;
+    height: fit-content;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)
+}
+
+h2 {
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.github-link {
+    width: fit-content;
+    gap: 5px;
+}
+
+.github {
+    width: 6%;
+    fill: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 200ms ease;
+}
+
+a:hover {
+    color: rgba(197, 248, 230, 0.5);
+}
+
+footer {
+    display: block;
+    background: rgba(5, 26, 43);
+    padding: 1rem;
+    font-style: italic;
+    padding-bottom: 1rem;
+    border-top: 1px solid black;
 }
