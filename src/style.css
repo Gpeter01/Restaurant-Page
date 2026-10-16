@@ -67,6 +67,7 @@ svg {
 
 .svg-container {
     height: 5rem;
+    width: 1rem;
 }
 
 h1 {
@@ -120,6 +121,7 @@ p {
 
 .github {
     height: 1rem;
+    width: 1rem;
     fill: white;
 }
 
