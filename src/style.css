@@ -83,15 +83,15 @@ h1 {
 }
 
 .content-container {
-    line-height: 1.5;
     display: grid;
     gap: 3rem;
-    grid-template-columns: 60ch;
     justify-content: center;
-    padding: 3rem;
+    align-items: center;
+    padding: 3rem 0;
 }
 
 .content-container > * {
+    width: 60ch;
     background: rgba(5, 93, 133, 0.85);
     backdrop-filter: blur(2px);
     padding: 3rem;
@@ -104,9 +104,11 @@ h1 {
 h2 {
     padding-bottom: 1rem;
     font-size: 2rem;
+    font-weight: 500;
 }
 
 p {
+    line-height: 1.5;
     font-size: 1rem;
     letter-spacing: 0.03rem;
 }
@@ -138,4 +140,21 @@ footer {
     font-style: italic;
     padding-bottom: 1rem;
     border-top: 1px solid black;
+}
+
+@media (width < 500px ) {
+    .content-container > * {
+        width: 85vw;
+        padding: 2.5rem;
+    }
+
+    .hero {
+        min-height: 35vh;
+    }
+}
+
+@media (width < 417px) {
+    h1 {
+        font-size: 2.7rem;
+    }
 }
