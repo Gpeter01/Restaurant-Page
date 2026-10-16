@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     border: 0;
-    line-height: 1.5;
     box-sizing: border-box;
 }
 
@@ -67,29 +66,27 @@ svg {
 }
 
 .svg-container {
-    height: 100%;
-    width: 30%;
+    height: 5rem;
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
     letter-spacing: 0.1rem;
     color: rgb(197, 248, 230);
-    font-style: italic;
 }
 
 .container {
-    height: fit-content;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .content-container {
+    line-height: 1.5;
     display: grid;
     gap: 3rem;
-    grid-template-columns: 50ch;
+    grid-template-columns: 60ch;
     justify-content: center;
     padding: 3rem;
 }
@@ -106,12 +103,12 @@ h1 {
 
 h2 {
     padding-bottom: 1rem;
-    font-size: 2.5rem;
-    text-align: center;
+    font-size: 2rem;
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    letter-spacing: 0.03rem;
 }
 
 .github-link {
@@ -120,7 +117,7 @@ p {
 }
 
 .github {
-    width: 6%;
+    height: 1rem;
     fill: white;
 }
 

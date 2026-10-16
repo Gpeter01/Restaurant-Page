@@ -7,9 +7,9 @@ function createAboutPage() {
        <div>
             <h2><i>About us</i></h2>
             <p>
-                <i>We make the best snacks across the continents, delivering nourishing goodness to the world while looking good at it.
+                We make the best snacks across the continents, delivering nourishing goodness to the world while looking good at it.
                 It goes a lot deeper than that. It's a journey of a lifetime but I believe we'll get there. We believe everyone will acheive greatness and we are here to nourish you on your journey.
-                </i>
+                
             </p>
         </div>`;
     const menuButton = document.querySelector('.menu');

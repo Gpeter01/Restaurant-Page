@@ -32,12 +32,12 @@ function createMenuPage() {
         </div>
 
         <div>
-            <h2>Meat pies</h2>
+            <h2><i>Meat pies</i></h2>
 
             <p> C'mon, meat pies? I am eating em all. Trust me, you'd want one too.</p>
         </div>
         <div>
-            <h2>French fries</h2>
+            <h2><i>French fries</i></h2>
 
             <p>I am running out of things to say lolz. Trust me, french fries is the way though.</p>
         </div>`;

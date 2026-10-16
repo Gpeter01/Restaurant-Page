@@ -15,7 +15,7 @@ function createHomePage() {
             <div class="content-container">
 
                 <div class="description">
-                    <h2><i>Restaurant Page</i></h2>
+                    <h2>Restaurant Page</h2>
                     <p>
                         Welcome code snarkies, it's pico sharkies. Your go to for premium  delictable lunch, snacks and everything in between.
                         Life is good, life could be better, come get your daily goodness filled with taste to add a little more productivity to your day.
@@ -25,7 +25,7 @@ function createHomePage() {
                 </div>
 
                 <div class="schedule">
-                    <h2><i>Open:</i></h2>
+                    <h2>Open:</h2>
 
                     <p>Monday: 8am - 8pm</p>
                     <p>Tuesday: 8am - 8pm</p>
@@ -37,7 +37,7 @@ function createHomePage() {
                 </div>
 
                 <div class="address">
-                    <h2><i>Address:</i></h2>
+                    <h2>Address</h2>
 
                     <p>You really wanna know? Do you really really wanna know?</p>
                 </div>
@@ -47,7 +47,7 @@ function createHomePage() {
                 <p><a href="#content">Go to the top of page</a></p>
                 <p>Wanna know about me?</p>
                 <p class="github-link">
-                    <span class=" github svg-container">
+                    <span class="github">
                         <a href="link to my github page">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
                             <g>
